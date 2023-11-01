@@ -7,7 +7,7 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-build-mode = "both"
+build-mode = "apk"
 excluded-patches = ""
 included-patches = ""
 version = "auto"
@@ -15,6 +15,6 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 excluded-patches = "'Enable debugging' 'Old video quality menu' 'Disable fine scrubbing gesture' 'External downloads' 'Enable tablet layout' 'Premium heading' 'Comments' 'Wide searchbar' 'Alternative thumbnails' 'Spoof app version' 'Custom player overlay opacity' 'Theme' 'Hide cast button'"
 
 [Youtube Music]
-build-mode = "both"
+build-mode = "apk"
 apkmirror-arch = "both"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
